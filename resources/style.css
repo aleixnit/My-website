@@ -35,6 +35,27 @@ body {
   background-color: #ffffff;
 }
 
+/* MAIN ----------------------------------------------------------------------------------------------------------- */
+.mainContainer {
+    margin: 0vw 10vw 10vw 10vw;
+}
+.mainContainer img {
+    width: 80vw;
+    height: 50vw;
+    /* border-radius: 50%; */
+}
+
+/* SKILLS ----------------------------------------------------------------------------------------------------------- */
+.skillsContainer {
+    margin: 0vw 10vw 10vw 10vw;
+}
+
+.skillsContainer img {
+    margin-top: 5vw;
+    width: 20%;
+
+}
+
 @media (max-width: 766px) {
   /* HAMBURGUER MENÚ -----------------------------------------------------------------------------------------------*/
   .container {
@@ -137,7 +158,7 @@ body {
     /* box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5); */
     /* color del menú de fondo */
     background-color: #05fe9e;
-    /*   height: 100vh; */
+      height: 100vh;
     width: 78vw;
     transform: translateY(-150%);
     display: flex;

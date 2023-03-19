@@ -215,6 +215,10 @@ button:active {
   margin-top: 3vw;
 }
 
+.skillsContainer ul li:hover {
+  background-color: #6a6a6a;
+}
+
 /*FOOTER -----------------------------------------------------------------------------------------------*/
 .footer-container {
   width: 100%;

@@ -19,3 +19,5 @@ hamburger.addEventListener("click", () => {
     menuList.classList.toggle("active");
 
 })
+
+//CARRUSEL DE IMAGENES

@@ -1,4 +1,4 @@
-// HAMBURGUER MENÚ
+// DARK THEME / LIGHT THEME ------------------------------------------------------------------------------------------
 const themeSwitch = document.getElementById("theme-switch");
 const themeBody = document.getElementById("theme-body");
 
@@ -10,15 +10,7 @@ themeSwitch.addEventListener("change", () => {
   }
 });
 
-
-// const toggleThemeBtn = document.getElementById('toggle-theme-btn');
-// const bodyEl = document.body;
-
-// toggleThemeBtn.addEventListener('click', () => {
-//   bodyEl.classList.toggle('dark-mode');
-// });
-
-
+// HAMBURGUER MENU -----------------------------------------------------------------------------------------------------
 const hamburger = document.querySelector(".hamburgerMenu")
 const navMenu = document.querySelector(".menuList")
 

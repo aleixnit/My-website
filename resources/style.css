@@ -164,6 +164,14 @@ main h1 {
   gap: 3vw;
 }
 
+.skillsContainer ul {
+  list-style: none;
+  display: flex;
+  gap: 3vw;
+  justify-content: center;
+  margin-top: 3vw;
+}
+
 /*FOOTER -----------------------------------------------------------------------------------------------*/
 .footer-container {
   width: 100%;

@@ -7,7 +7,7 @@
     <title>Nitjac.dev</title>
     <link rel="stylesheet" href="./resources/style.css" />
   </head>
-  <body>
+  <body id="theme-body">
     <!-- NAVBAR -------------------------------------------------------------------------------------------------------->
     <img
       class="logo"
@@ -28,23 +28,34 @@
           <li><a href="./project.html">Projects</a></li>
           <li><a href="./contact-us.html">Skills</a></li>
           <li><a href="./contact-us.html">Contact</a></li>
+            <label class="switch">
+            <input id="theme-switch" type="checkbox">
+            <span class="slider"></span>
+        </label>
         </div>
       </div>
     </div>
 
-    <!-- MAIN CLASS ---------------------------------------------------------------------------------------------------------->
-    <main class="mainContainer">
-      <h2>About me</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad corporis
-        quia nihil? Dolore soluta, exercitationem corporis aliquam cupiditate
-        nesciunt ex reprehenderit aperiam odit magnam rem! Et nisi incidunt
-        fugiat temporibus.
-      </p>
-      <!-- <img src="./resources/images/ftonit.jpeg" alt="foto aleix"> -->
+    <main class="">
+      <h1>¡Hello World!</h1>
+      <h2>Soy Aleix Aguilar</h2>
+      <h3>Tengo 27 años y soy un apasionado del front-end.</h3>
     </main>
 
-      <!-- SECTION CLASS ------------------------------------------------------------------------------------------------------->
+    <!-- ABOUT ME CLASS ---------------------------------------------------------------------------------------------------------->
+    <section class="aboutContainer">
+      <h2>About me</h2>
+      <p>
+         Estudié en Ironhack, una escuela líder en el desarrollo web, donde aprendí los fundamentos del desarrollo front-end.
+      </p>
+      <!-- <img src="./resources/images/ftonit.jpeg" alt="foto aleix"> -->
+      <div class="slider-container">
+        <img class="slider-item" src="./resources/images/aleix.jpeg" alt="aleix1"></img>
+        <img class="slider-item" src="./resources/images/WhatsApp Image 2023-03-19 at 08.32.59.jpeg" alt="aleix2">
+      </div>
+    </section>
+
+      <!-- SKILLS CLASS ------------------------------------------------------------------------------------------------------->
     <section class="skillsContainer">
       <h2>Skills</h2>
       <ul>
@@ -54,8 +65,11 @@
         <li>Vue.js</li>
       </ul>
 
+      <footer></footer>
+
       <img src="./resources/images/html-1.svg" alt="html logo">
       <img src="./resources/images/css3.svg" alt="css logo">
     </section>
+    <script src="./resources/js/index.js"></script>
   </body>
 </html>
